@@ -62,7 +62,13 @@ The data shows that more women than men are alive, with about 56% being female a
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+The expected results assumed that men and women would die at the same rate compared to those still alive. But the actual data showed that nearly twice as many men died compared to women. The odds of a woman dying versus a man are about 2 to 3, meaning men are more likely to die than women.
 
 
 ## Conclusions
