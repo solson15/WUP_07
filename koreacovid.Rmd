@@ -73,3 +73,5 @@ The expected results assumed that men and women would die at the same rate compa
 
 ## Conclusions
 
+The data and graphs show that there's a link between gender and death. Men are more than twice as likely to die as women, even though there are more women in the population overall.
+
