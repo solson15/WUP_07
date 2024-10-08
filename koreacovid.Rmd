@@ -52,6 +52,13 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The data shows that more women than men are alive, with about 56% being female and 44% male. But when it comes to those who have died, more men than women have passed away—about 64% were men and 36% were women. In total, 3% of men have died, compared to just 1.4% of women. This means that the number of men who have died is more than double the number of women.
 
 ## Inferential results 
 
