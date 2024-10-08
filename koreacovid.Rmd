@@ -35,13 +35,20 @@ state of a patient must be died or alive - we adjust that as well
 ## Graphical results - use ggplot commands to do this  
 
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
+```
   
 
 
 
 
 
+  
+  Most of the people alive were female, making up about 55%, while males were around 45%. But when it came to those who died, about 65% were male and 45% were female. This shows that more males died compared to females, with males making up a much larger part of the deaths, almost twice as many as females.
+  
   
 ## Numerical results
 
